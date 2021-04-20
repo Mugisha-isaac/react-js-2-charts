@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Linechart from './Linechart';
+import Piechart from './Piechart';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Linechart />
+    <Piechart />
   </React.StrictMode>,
   document.getElementById('root')
 );
