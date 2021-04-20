@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Barchart from './Barchart';
+import Linechart from './Linechart';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Barchart />
+    <Linechart />
   </React.StrictMode>,
   document.getElementById('root')
 );
